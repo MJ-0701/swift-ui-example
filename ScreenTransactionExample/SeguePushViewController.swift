@@ -9,11 +9,31 @@ import UIKit
 
 class SeguePushViewController: UIViewController {
 
+    // ViewController Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("SeguePushViewControllerView did load") // 백버튼으로 이전 화면으로 돌아갈 경우 메모리에 있는 뷰 컨틀러가 삭제 되기 떄문에 처음부터 다시 로드한다
 
-        // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print("SeguePushViewControllerView will appear")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("SeguePushViewControllerView did appear")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print("SeguePushViewControllerView will disappear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        print("SeguePushViewControllerView did disappear")
+    }
+    
+    
+    
     
     @IBAction func backButton(_ sender: UIButton) {
         
