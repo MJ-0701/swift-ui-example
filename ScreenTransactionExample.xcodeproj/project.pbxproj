@@ -13,6 +13,10 @@
 		F13DB59B283202FB00DAFA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13DB599283202FB00DAFA25 /* Main.storyboard */; };
 		F13DB59D283202FD00DAFA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13DB59C283202FD00DAFA25 /* Assets.xcassets */; };
 		F13DB5A0283202FD00DAFA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13DB59E283202FD00DAFA25 /* LaunchScreen.storyboard */; };
+		F13DB5A8283205A200DAFA25 /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB5A7283205A200DAFA25 /* SeguePushViewController.swift */; };
+		F13DB5AA2832088D00DAFA25 /* SeguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB5A92832088D00DAFA25 /* SeguePresentViewController.swift */; };
+		F13DB5AC28320ABC00DAFA25 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB5AB28320ABC00DAFA25 /* CodePushViewController.swift */; };
+		F13DB5AE28320E8800DAFA25 /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB5AD28320E8800DAFA25 /* CodePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F13DB59C283202FD00DAFA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13DB59F283202FD00DAFA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13DB5A1283202FD00DAFA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13DB5A7283205A200DAFA25 /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
+		F13DB5A92832088D00DAFA25 /* SeguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePresentViewController.swift; sourceTree = "<group>"; };
+		F13DB5AB28320ABC00DAFA25 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		F13DB5AD28320E8800DAFA25 /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				F13DB59C283202FD00DAFA25 /* Assets.xcassets */,
 				F13DB59E283202FD00DAFA25 /* LaunchScreen.storyboard */,
 				F13DB5A1283202FD00DAFA25 /* Info.plist */,
+				F13DB5A7283205A200DAFA25 /* SeguePushViewController.swift */,
+				F13DB5A92832088D00DAFA25 /* SeguePresentViewController.swift */,
+				F13DB5AB28320ABC00DAFA25 /* CodePushViewController.swift */,
+				F13DB5AD28320E8800DAFA25 /* CodePresentViewController.swift */,
 			);
 			path = ScreenTransactionExample;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13DB5A8283205A200DAFA25 /* SeguePushViewController.swift in Sources */,
+				F13DB5AC28320ABC00DAFA25 /* CodePushViewController.swift in Sources */,
 				F13DB598283202FB00DAFA25 /* ViewController.swift in Sources */,
 				F13DB594283202FB00DAFA25 /* AppDelegate.swift in Sources */,
+				F13DB5AE28320E8800DAFA25 /* CodePresentViewController.swift in Sources */,
+				F13DB5AA2832088D00DAFA25 /* SeguePresentViewController.swift in Sources */,
 				F13DB596283202FB00DAFA25 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
