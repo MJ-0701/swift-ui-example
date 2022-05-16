@@ -9,9 +9,16 @@ import UIKit
 
 class SeguePushViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    var name : String?
+    
     // ViewController Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let name = name{
+            self.nameLabel.text = name
+            self.nameLabel.sizeToFit()
+        }
         print("SeguePushViewControllerView did load") // 백버튼으로 이전 화면으로 돌아갈 경우 메모리에 있는 뷰 컨틀러가 삭제 되기 떄문에 처음부터 다시 로드한다
 
     }
