@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13B68D02833691500C4F08D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13B68CF2833691500C4F08D /* SettingViewController.swift */; };
 		F13DB594283202FB00DAFA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB593283202FB00DAFA25 /* AppDelegate.swift */; };
 		F13DB596283202FB00DAFA25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB595283202FB00DAFA25 /* SceneDelegate.swift */; };
 		F13DB598283202FB00DAFA25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB597283202FB00DAFA25 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F13B68CF2833691500C4F08D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		F13DB590283202FB00DAFA25 /* ScreenTransactionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransactionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13DB593283202FB00DAFA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13DB595283202FB00DAFA25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				F13DB59C283202FD00DAFA25 /* Assets.xcassets */,
 				F13DB59E283202FD00DAFA25 /* LaunchScreen.storyboard */,
 				F13DB5A1283202FD00DAFA25 /* Info.plist */,
+				F13B68CF2833691500C4F08D /* SettingViewController.swift */,
 			);
 			path = ScreenTransactionExample;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				F13DB598283202FB00DAFA25 /* ViewController.swift in Sources */,
 				F13DB594283202FB00DAFA25 /* AppDelegate.swift in Sources */,
 				F13DB596283202FB00DAFA25 /* SceneDelegate.swift in Sources */,
+				F13B68D02833691500C4F08D /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
