@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1266CE8283CA5D300E9FB8F /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1266CE7283CA5D300E9FB8F /* DiaryCell.swift */; };
+		F1266CEA283CA65700E9FB8F /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1266CE9283CA65700E9FB8F /* StarViewController.swift */; };
+		F1266CEC283CA86800E9FB8F /* StarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1266CEB283CA86800E9FB8F /* StarCell.swift */; };
+		F1266CF2283CAC4200E9FB8F /* WriteDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1266CF1283CAC4200E9FB8F /* WriteDiaryViewController.swift */; };
+		F1266CF4283CACB300E9FB8F /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1266CF3283CACB300E9FB8F /* DiaryDetailViewController.swift */; };
 		F13DB594283202FB00DAFA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB593283202FB00DAFA25 /* AppDelegate.swift */; };
 		F13DB596283202FB00DAFA25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB595283202FB00DAFA25 /* SceneDelegate.swift */; };
 		F13DB598283202FB00DAFA25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DB597283202FB00DAFA25 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1266CE7283CA5D300E9FB8F /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
+		F1266CE9283CA65700E9FB8F /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		F1266CEB283CA86800E9FB8F /* StarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCell.swift; sourceTree = "<group>"; };
+		F1266CF1283CAC4200E9FB8F /* WriteDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryViewController.swift; sourceTree = "<group>"; };
+		F1266CF3283CACB300E9FB8F /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
 		F13DB590283202FB00DAFA25 /* ScreenTransactionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransactionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13DB593283202FB00DAFA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13DB595283202FB00DAFA25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +73,11 @@
 				F13DB59C283202FD00DAFA25 /* Assets.xcassets */,
 				F13DB59E283202FD00DAFA25 /* LaunchScreen.storyboard */,
 				F13DB5A1283202FD00DAFA25 /* Info.plist */,
+				F1266CE7283CA5D300E9FB8F /* DiaryCell.swift */,
+				F1266CE9283CA65700E9FB8F /* StarViewController.swift */,
+				F1266CEB283CA86800E9FB8F /* StarCell.swift */,
+				F1266CF1283CAC4200E9FB8F /* WriteDiaryViewController.swift */,
+				F1266CF3283CACB300E9FB8F /* DiaryDetailViewController.swift */,
 			);
 			path = ScreenTransactionExample;
 			sourceTree = "<group>";
@@ -139,8 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13DB598283202FB00DAFA25 /* ViewController.swift in Sources */,
+				F1266CF2283CAC4200E9FB8F /* WriteDiaryViewController.swift in Sources */,
+				F1266CEC283CA86800E9FB8F /* StarCell.swift in Sources */,
 				F13DB594283202FB00DAFA25 /* AppDelegate.swift in Sources */,
 				F13DB596283202FB00DAFA25 /* SceneDelegate.swift in Sources */,
+				F1266CF4283CACB300E9FB8F /* DiaryDetailViewController.swift in Sources */,
+				F1266CE8283CA5D300E9FB8F /* DiaryCell.swift in Sources */,
+				F1266CEA283CA65700E9FB8F /* StarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
