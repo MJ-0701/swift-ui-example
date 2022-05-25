@@ -58,6 +58,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="180" height="200"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="Ec0-1k-M0x" id="2dJ-xy-4Vv"/>
+                                            <outlet property="titleLabel" destination="J7o-uc-g5I" id="TRm-Fg-z3I"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -78,6 +82,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="f7B-TS-zjK" id="r3o-IM-bmL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -108,7 +115,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Oj-1e-jAd">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Oj-1e-jAd" userLabel="Contents Text View">
                                 <rect key="frame" x="24" y="236" width="366" height="100"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -154,8 +161,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="일기작성" id="sCy-iu-4ag">
-                        <barButtonItem key="rightBarButtonItem" title="등록" id="s45-Iy-AJP"/>
+                        <barButtonItem key="rightBarButtonItem" title="등록" id="s45-Iy-AJP">
+                            <connections>
+                                <action selector="tapConfirmButton:" destination="rhw-Qx-Ibd" id="sOc-Qg-Fyt"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="confirmButton" destination="s45-Iy-AJP" id="3Dp-Ga-vZq"/>
+                        <outlet property="contentsTextView" destination="7Oj-1e-jAd" id="dkj-3g-gVX"/>
+                        <outlet property="dateTextField" destination="mBp-cY-Mqf" id="W05-Ed-J0F"/>
+                        <outlet property="titleTextField" destination="bLj-ZL-0w8" id="GQR-GX-jaN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q2z-Ji-qJB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -18,6 +18,7 @@
 		F13DB59B283202FB00DAFA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13DB599283202FB00DAFA25 /* Main.storyboard */; };
 		F13DB59D283202FD00DAFA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13DB59C283202FD00DAFA25 /* Assets.xcassets */; };
 		F13DB5A0283202FD00DAFA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13DB59E283202FD00DAFA25 /* LaunchScreen.storyboard */; };
+		F1BAD9E2283DFEB600C38EA0 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BAD9E1283DFEB600C38EA0 /* Diary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F13DB59C283202FD00DAFA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13DB59F283202FD00DAFA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13DB5A1283202FD00DAFA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BAD9E1283DFEB600C38EA0 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				F1266CEB283CA86800E9FB8F /* StarCell.swift */,
 				F1266CF1283CAC4200E9FB8F /* WriteDiaryViewController.swift */,
 				F1266CF3283CACB300E9FB8F /* DiaryDetailViewController.swift */,
+				F1BAD9E1283DFEB600C38EA0 /* Diary.swift */,
 			);
 			path = ScreenTransactionExample;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				F1266CEC283CA86800E9FB8F /* StarCell.swift in Sources */,
 				F13DB594283202FB00DAFA25 /* AppDelegate.swift in Sources */,
 				F13DB596283202FB00DAFA25 /* SceneDelegate.swift in Sources */,
+				F1BAD9E2283DFEB600C38EA0 /* Diary.swift in Sources */,
 				F1266CF4283CACB300E9FB8F /* DiaryDetailViewController.swift in Sources */,
 				F1266CE8283CA5D300E9FB8F /* DiaryCell.swift in Sources */,
 				F1266CEA283CA65700E9FB8F /* StarViewController.swift in Sources */,
