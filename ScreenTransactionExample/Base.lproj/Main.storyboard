@@ -93,7 +93,7 @@
         <!--일기작성-->
         <scene sceneID="3Fe-EH-L6k">
             <objects>
-                <viewController id="rhw-Qx-Ibd" customClass="WriteDiaryViewController" customModule="ScreenTransactionExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WriteDiaryViewController" id="rhw-Qx-Ibd" customClass="WriteDiaryViewController" customModule="ScreenTransactionExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AZh-Sn-Tbv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
