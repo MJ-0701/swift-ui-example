@@ -41,11 +41,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="143" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="취소"/>
+                                        <connections>
+                                            <action selector="tapCancleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fcD-yB-SHS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LW-sL-WYv">
                                         <rect key="frame" x="223" y="0.0" width="143" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="시작"/>
+                                        <connections>
+                                            <action selector="tapToggleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EOh-uR-dyf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -69,6 +75,13 @@
                             <constraint firstItem="IXn-yD-USL" firstAttribute="top" secondItem="dix-cH-ZCG" secondAttribute="bottom" constant="30" id="yhk-oP-Se3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cancleButton" destination="yce-Wx-XFm" id="e3C-Dn-a1h"/>
+                        <outlet property="datePicker" destination="L4Q-en-81E" id="zR4-EW-Rrp"/>
+                        <outlet property="progressView" destination="IXn-yD-USL" id="Ctq-0V-9j4"/>
+                        <outlet property="timerLabel" destination="dix-cH-ZCG" id="Ue4-uk-6YP"/>
+                        <outlet property="toggleButton" destination="8LW-sL-WYv" id="VEt-gK-Da7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
